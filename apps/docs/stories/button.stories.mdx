@@ -1,7 +1,7 @@
-import { Button } from "@acme/core/src";
+import { ButtonPrimary, ButtonSecondary } from "@andresmancheno/reacta-ui";
 import { Meta, Story, Canvas, ArgsTable } from "@storybook/addon-docs";
 
-<Meta title="Components/Button" component={Button} />
+<Meta title="Components/Button" component={ButtonPrimary} />
 
 # Button
 
@@ -14,7 +14,8 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec euismod, nisl ege
 ## Examples
 
 <Canvas>
-  <Story name="Default">
-    <Button>Hello</Button>
-  </Story>
+	<Story name="Default">
+		<ButtonPrimary>Hello </ButtonPrimary>
+		<ButtonSecondary>Hello </ButtonSecondary>
+	</Story>
 </Canvas>
